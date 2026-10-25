@@ -42,17 +42,17 @@
         public override INotification CreateNotification() => new SmsNotification();
     }
 
-    class Factory
-    {
-        static void Main()
-        {
-            NotificationCreator creator;
+    //class Factory
+    //{
+    //    static void Main()
+    //    {
+    //        NotificationCreator creator;
 
-            creator = new EmailNotificationCreator();
-            creator.Send("Welcome");
+    //        creator = new EmailNotificationCreator();
+    //        creator.Send("Welcome");
 
-            creator = new SmsNotificationCreator();
-            creator.Send("OTP is 1234");
-        }
-    }
+    //        creator = new SmsNotificationCreator();
+    //        creator.Send("OTP is 1234");
+    //    }
+    //}
 }
