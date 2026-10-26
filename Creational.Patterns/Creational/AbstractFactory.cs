@@ -101,22 +101,22 @@
 
     internal class AbstractFactory
     {
-        static void Main()
-        {
-            string os = Environment.OSVersion.Platform.ToString();
-            GuiFactory factory;
+        //static void Main()
+        //{
+        //    string os = Environment.OSVersion.Platform.ToString();
+        //    GuiFactory factory;
 
-            if (os.Contains("Win"))
-            {
-                factory = new WindowsGuiFactory();
-            }
-            else
-            {
-                factory = new MacGuiFactory();
-            }
+        //    if (os.Contains("Win"))
+        //    {
+        //        factory = new WindowsGuiFactory();
+        //    }
+        //    else
+        //    {
+        //        factory = new MacGuiFactory();
+        //    }
 
-            Application application = new(factory);
-            application.RenderUI();
-        }
+        //    Application application = new(factory);
+        //    application.RenderUI();
+        //}
     }
 }
