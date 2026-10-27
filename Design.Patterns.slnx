@@ -3,5 +3,7 @@
   <Folder Name="/Creational.Patterns/">
     <Project Path="Creational.Patterns/Creational/Creational.csproj" Id="4d80e621-35b1-4f56-8815-9e26b0e094f4" />
   </Folder>
-  <Folder Name="/Structural.Patterns/" />
+  <Folder Name="/Structural.Patterns/">
+    <Project Path="Structural/Structural.csproj" Id="ac7752b5-f06e-4aa0-84bb-753d29bece4c" />
+  </Folder>
 </Solution>
